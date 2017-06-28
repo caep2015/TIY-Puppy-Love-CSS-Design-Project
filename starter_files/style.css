@@ -39,16 +39,42 @@ body > div{
     box-shadow: #ffd24a;
 }
 
+form {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #eee;
+  border-radius: 5px;
+  padding: 20px;
+
+}
 h2, h3 {
     color: #1fabe5;
 }
-#logo a {
+/*
+#logo a{
     color: #ff8523;
     margin-top: 0;
     margin-bottom: 0.6em;
+}*/
+/* this is a change */
+#logo a{
+  width: 10px;
+  border: 10px #ff8523;
+  padding: 10px;
+
 }
 ul {
   font-weight: bold;
+}
+
+
+.name {
+  padding: 0.5em 2em;
+  text-decoration: none;
+  background-color: #ff8523;
+  border-radius: 5px;
+
 }
 .main_navigation a{
     padding: 0.5em 2em;
@@ -75,7 +101,17 @@ table {
     background: #1fabe5;
 }*/
 th, td {
-    border: 1px solid #1fabe5;
+border: 1px solid #1fabe5;
     padding: 15px;
+}
 
+thead {
+  background-color: #1fabe5;
+  color: white;
+  width: 40%;
+}
+#submit_button {
+  color:  white;
+  background-color: #1fabe5;
+  border-radius: 5px;
 }
