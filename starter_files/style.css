@@ -12,106 +12,102 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
-header {
+#site_header {
     background-color: #ff8523;
-    color: white;
-    width: 100%;
-    padding-top: 20px;
+
     padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 0px;
+    padding-left: 20px;
+    border-radius: 10px;
 }
 
 body{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 90%;
     line-height: 1.6;
-    background: #dddddd;
+    background-image: url(./img/bg.jpg);
 }
 
 body > div{
-    width: 900px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
     background: white;
     padding: 20px;
-    box-shadow: #ffd24a;
 }
 
-form {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #eee;
-  border-radius: 5px;
-  padding: 20px;
-
-}
 h2, h3 {
     color: #1fabe5;
 }
-/*
-#logo a{
-    color: #ff8523;
-    margin-top: 0;
-    margin-bottom: 0.6em;
-}*/
-/* this is a change */
-#logo a{
-  width: 10px;
-  border: 10px #ff8523;
-  padding: 10px;
-
+#logo {
+    width: 10px;
+    border: 10px #ff8523;
+    padding: 10px;
 }
+form {
+  background-color: #dddddd;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.name {
+  background-color: #ff8523;
+  border-radius: 10px;
+  padding: 15px;
+  padding-left: 30px;
+  color: white;
+}
+
+
 ul {
   font-weight: bold;
 }
 
-
-.name {
-  padding: 0.5em 2em;
-  text-decoration: none;
-  background-color: #ff8523;
+.main_navigation a {
+  border-color: white;
+  border: 1px solid #ffffff;
+  font-weight: bold;
+  padding: 10px;
   border-radius: 5px;
-
-}
-.main_navigation a{
-    padding: 0.5em 2em;
-    text-decoration: none;
-    background-color: #ff8523;
-    border-radius: 5px; /*rounds buttons
-    border: 1px solid #ffffff;/* white border on buttons - */
-    color: #ffffff;/* - white letters on buttons - */
-    font-weight: bold;
+  color: #ffffff;
 }
 
-.main_navigation a:hover{
-    color: white;
-    background-color: #ff8523;
-}
 table {
-  width: 100%;
-  border: 1px solid #1fabe5;/* border around table*/
-
+  border-collapse: collapse;
 }
-/*th {
-    height: 50px;
-    text-align: left;
-    background: #1fabe5;
-}*/
-th, td {
-border: 1px solid #1fabe5;
-    padding: 15px;
-}
-
-thead {
+thead{
   background-color: #1fabe5;
   color: white;
   width: 40%;
 }
+
+td, th {
+    border: 2px solid #1fabe5;
+    padding: 15px;
+}
+td {
+  border: 2px solid #1fabe5;
+}
+
+img {
+  width: auto;
+  height: 70px;
+}
+
+div > Label {
+  font-weight: bold;
+}
+
+#bio {
+  border-color: #1fab35;
+}
+
 #submit_button {
   color:  white;
   background-color: #1fabe5;
   border-radius: 5px;
+}
+
+section {
+  border-bottom: 4px solid #dddddd;
+  padding-bottom: 20px;
 }
