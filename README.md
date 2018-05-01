@@ -1,4 +1,5 @@
 The Iron Yard HTML Project June 2017
+Week 1, Day 3 Pair Programming
 
 # README
 
